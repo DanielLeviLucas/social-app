@@ -56,7 +56,8 @@ ol {
   font-family: "Muli", sans-serif;
   float: left;
   color: #f3f7cc;
-  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
   margin-right: 10%;
 }
 
@@ -64,7 +65,10 @@ ol {
   list-style: none;
   float: left;
   margin: 0;
+  font-size: 1.5rem;
   padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 #header ul.menu li {
   float: left;
