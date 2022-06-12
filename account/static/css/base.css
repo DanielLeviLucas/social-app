@@ -77,8 +77,8 @@ ol {
 
 #header ul.menu li.selected a,
 #header ul.menu li.selected a:hover {
-  color: #1b6d32;
-  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  font-weight: bolder;
 }
 
 #header a {
