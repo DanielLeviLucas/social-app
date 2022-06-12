@@ -46,9 +46,9 @@ ol {
 #header {
   padding: 10px 100px;
   font-size: 14px;
-  background: #12c064;
+  background: hsl(246, 85%, 64%);
   color: #fff;
-  border-bottom: 4px solid #1cdf78;
+  border-bottom: 4px solid hsl(246, 85%, 64%);
   overflow: auto;
 }
 
@@ -126,7 +126,7 @@ textarea {
 input[type="submit"],
 a.button {
   font-weight: bold;
-  background: #12c064;
+  background: hsl(246, 85%, 64%);
   color: #fff;
   padding: 10px 20px;
   font-size: 14px;
