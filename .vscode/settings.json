@@ -1,13 +1,15 @@
 {
-  "emmet.includeLanguages": {
-    "django-html": "html"
-  },
-  "[django-html]": {},
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "autopep8",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": ["--load-plugin=pylint_django"],
+
   "files.associations": {
-    "**/templates/*.html": "django-html",
-    "**/templates/*": "django-txt",
-    "**/templates/*html": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
-    "*.html": "django-html"
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   }
 }
