@@ -49,6 +49,7 @@ ALLOWED_HOSTS = ['testurl.in', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'images.apps.ImagesConfig',
     'social_django',
     'account.apps.AccountConfig',
     'django.contrib.admin',
