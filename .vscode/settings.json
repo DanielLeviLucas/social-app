@@ -6,6 +6,10 @@
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": ["--load-plugin=pylint_django"],
 
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+
   "files.associations": {
     "**/*.html": "html",
     "**/templates/**/*.html": "django-html",
