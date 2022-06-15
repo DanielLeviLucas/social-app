@@ -17,12 +17,11 @@
               <a href="{% url "dashboard" %}">My dashboard</a>
             </li>
 
-            <li
-            {% if section == "images" %}
+            <li {% if section == "images" %}
               class="selected"
-            {% endif %} >
-              <a href="#">Images</a>
-            </li>
+            {% endif %}>
+              <a href="{% url "images:list" %}">Images</a>
+             </li>
 
             <li
             {% if section == "images" %}
