@@ -14,6 +14,7 @@ toml = "==0.10.2"
 tzdata = "==2022.1"
 pillow = "*"
 social-auth-app-django = "*"
+easy-thumbnails = "*"
 
 [dev-packages]
 
