@@ -51,16 +51,17 @@ ALLOWED_HOSTS = ['testurl.in', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'easy_thumbnails',
-    'images.apps.ImagesConfig',
-    'social_django',
     'account.apps.AccountConfig',
+    'images.apps.ImagesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_django',
+    'easy_thumbnails',
+    'actions.apps.ActionsConfig',
 ]
 
 MIDDLEWARE = [
